@@ -16,7 +16,6 @@ body {
     text-align: center;
 }
 
-/* Estilos del formulario */
 .form {
     padding: 20px;
     background: lightblue;
@@ -74,7 +73,6 @@ body {
     transform: translate(3px, 3px);
 }
 
-/* Estilos de la tabla */
 .table {
     width: 100%;
     border-collapse: collapse;
