@@ -1,16 +1,8 @@
 Estado de Cuenta
 ---------------------------
-ID: 1 - Naranjas - Monto: $1,000.00
-ID: 2 - ss - Monto: $22.00
-ID: 3 - sssw - Monto: $2,223.00
-ID: 4 - dd - Monto: $2,222.00
-ID: 5 - Naranjas - Monto: $111.00
-ID: 6 - addee - Monto: $1.00
-ID: 7 - addee - Monto: $22.00
-ID: 8 - a - Monto: $2.00
-ID: 9 - FINAL - Monto: $50.00
+ID: 1 - PRUEBA - Monto: $23.00
 ---------------------------
-Monto Total de Contado: $5,653.00
-Monto Total con Interés (2.6%): $5,799.98
-Cashback (0.1%): $5.65
-Monto Final a Pagar: $5,794.33
+Monto Total de Contado: $23.00
+Monto Total con Interés (2.6%): $23.60
+Cashback (0.1%): $0.02
+Monto Final a Pagar: $23.58

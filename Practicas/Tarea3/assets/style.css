@@ -1,0 +1,96 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Estilos del formulario */
+.form {
+    padding: 20px;
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.title span {
+    font-weight: 600;
+    font-size: 17px;
+    color: #666;
+}
+
+.input {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: beige;
+    box-shadow: 4px 4px black;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.input:focus {
+    border: 2px solid #2d8cf0;
+}
+
+.button-confirm {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: beige;
+    box-shadow: 4px 4px black;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button-confirm:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
+/* Estilos de la tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.table th {
+    background-color: #0077be;
+    color: white;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}

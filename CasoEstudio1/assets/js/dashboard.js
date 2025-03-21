@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function(){
         taskList.innerHTML = '';
         tasks.forEach(function(task){
             const taskCard = document.createElement('div');
-            taskCard.className = 'col-12 mb-3'; 
+            taskCard.className = 'col-12 mb-3';
             taskCard.innerHTML = `
             <div class="card bg-dark text-white rounded"> 
                 <div class="card-body">
