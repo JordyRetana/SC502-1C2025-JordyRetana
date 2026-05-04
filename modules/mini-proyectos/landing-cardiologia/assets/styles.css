@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #b68354;
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 5px 10px; 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    background-color: #e38ebd;
+    border-radius: 5px;
+}
+
+#perfil {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nombre {
+    font-size: 2em;
+    color: #c67436;
+    margin-bottom: 10px;
+}
+
+.especialidad {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#descripcion {
+    font-size: 1.1em;
+    margin: 0 auto 20px;
+    max-width: 600px;
+    color: #666;
+}
+
+#agendar-cita {
+    background-color: #e7b165;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#agendar-cita:hover {
+    background-color: #e55913;
+}
+
+#Bloques {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%; 
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.tarjeta h3 {
+    margin-top: 0;
+    color: #c67436;
+}
+
+.tarjeta p {
+    font-size: 1em;
+    color: #555;
+}
+
+.fecha {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 10px;
+}

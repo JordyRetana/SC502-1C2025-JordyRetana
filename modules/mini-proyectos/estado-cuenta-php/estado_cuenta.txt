@@ -1,0 +1,8 @@
+Estado de Cuenta
+---------------------------
+ID: 1 - PRUEBA - Monto: $23.00
+---------------------------
+Monto Total de Contado: $23.00
+Monto Total con Interés (2.6%): $23.60
+Cashback (0.1%): $0.02
+Monto Final a Pagar: $23.58

@@ -1,0 +1,30 @@
+GUÍA RÁPIDA DE INSTALACIÓN - APP-TAREAS (XAMPP PUERTO 3315)
+
+1. CAMBIAR PUERTO DE XAMPP A 3315
+   - Abrí XAMPP > Apache > Config > httpd.conf
+   - Cambiá:
+     Listen 80 → Listen 3315
+     ServerName localhost:80 → ServerName localhost:3315
+   - Guardá y reiniciá Apache.
+
+2. COPIAR EL PROYECTO
+   - Carpeta debe llamarse: app-tareas
+   - Copiala en: C:\xampp\htdocs\
+
+3. IMPORTAR LA BASE DE DATOS
+   - Abrí: http://localhost:3315/phpmyadmin
+   - Creá una base de datos  gestor_tareas
+   - Usá la pestaña "Importar" y subí el .sql del proyecto.
+
+4. CONFIGURAR CONEXIÓN (conexion.php)
+   - Usá estos datos:
+     host: localhost  
+     puerto: 3315 *(si usás PDO)*  
+     usuario: root  
+     contraseña: (vacía)  
+     base: gestor_tareas
+
+5. ABRIR LA APP
+   - Ir a: http://localhost:3315/app-tareas/
+
+¡Listo! El sistema debería funcionar.
